@@ -2,7 +2,7 @@
 
 return [
 
-    'default' => env('ORBIT_DEFAULT_DRIVER', 'json'),
+    'default' => env('ORBIT_DEFAULT_DRIVER', 'md'),
 
     'drivers' => [
         'md' => \Orbit\Drivers\Markdown::class,
