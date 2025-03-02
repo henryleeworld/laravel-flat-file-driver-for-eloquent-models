@@ -1,4 +1,4 @@
-# Laravel 10 Eloquent 模型平坦檔案驅動
+# Laravel 11 Eloquent 模型平坦檔案驅動
 
 引入 ryangjchandler 的 orbit 套件來擴增 Eloquent 模型平坦檔案驅動，允許使用熟悉的方法操作的實際檔案替換您的一般資料庫。
 
@@ -22,5 +22,5 @@ $ php artisan key:generate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/ojebQkV.png)
+![](https://i.imgur.com/gyDeTeY.png)
 > 預設情況下，所有內容都儲存在根目錄的 `content` 資料夾中
