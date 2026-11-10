@@ -16,7 +16,7 @@ class Post extends Model implements Orbit
     /**
      * The attributes that are mass assignable.
      *
-     * @var array<int, string>
+     * @var list<string>
      */
     protected $fillable = [
         'title',
@@ -28,7 +28,7 @@ class Post extends Model implements Orbit
     /**
      * The attributes that should be hidden for serialization.
      *
-     * @var array<int, string>
+     * @var list<string>
      */
     protected $hidden = [
         'slug',

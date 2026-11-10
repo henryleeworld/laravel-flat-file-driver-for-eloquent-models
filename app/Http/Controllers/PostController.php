@@ -6,6 +6,9 @@ use App\Models\Post;
 
 class PostController extends Controller
 {
+    /**
+     * Display the resource.
+     */
     public function show() 
     {
         $post = Post::create([
